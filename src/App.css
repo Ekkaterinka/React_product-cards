@@ -1,0 +1,60 @@
+
+li {
+  list-style: none;
+}
+.List li{
+  display: flex;
+  height: 120px;
+  width: 100%;
+  justify-content:space-between;
+}
+.List img {
+  height: 120px;
+  margin-left: 40px;
+}
+.List p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+button {
+  color: red;
+  border: 2px solid red; 
+  height: 30px;
+  border-radius: 10px;
+}
+.ShopCard {
+  display: flex;
+ width: 900px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.Card {
+  box-shadow: 0px 5px 5px 5px rgb(202, 201, 201);
+  margin: 15px;
+  padding: 10px;
+}
+
+.Card img {
+  width: 250px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.price p {
+  color: red;
+}
+p {
+  color: black;
+}
+h2 {
+  text-transform: uppercase;
+}
+.material-symbols-outlined {
+  border: none;
+  color: black;
+font-size: 20px;
+background: none;
+float: right;
+
+}
